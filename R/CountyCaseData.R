@@ -1,13 +1,13 @@
-#' Number of COVID deaths by county in the Upper Midwest, early 2021
+#' Number of COVID cases by county in the Upper Midwest, early 2021
 #'
-#' A dataset containing the number of deaths by county with weekly data
+#' A dataset containing the number of cases by county with weekly data
 #' for Illinois, Indiana, Iowa, Michigan, Minnesota, Ohio, and Wisconsin
 #'
 #' @format A data frame with 628 rows and 20 variables:
 #' \describe{
 #'   \item{County}{county name}
 #'   \item{State}{state}
-#'   \item{CountyID}{County ID (for shapefiles)}
+#'   \item{GEOID}{County ID (for shapefiles)}
 #'   \item{37}{number of cumulative cases on Feb 6}
 #'   \item{44}{number of cumulative cases on Feb 13}
 #'   \item{51}{number of cumulative cases on Feb 20}
@@ -25,6 +25,7 @@
 #'   \item{135}{number of cumulative cases on May 15}
 #'   \item{142}{number of cumulative cases on May 22}
 #'   \item{149}{number of cumulative cases on May 29}
+#'   \item{MaskMandate}{day number for which mask mandate expired}
 #' }
 #' @source \url{https://github.com/nytimes/covid-19-data}
-"CountyData"
+"CountyCaseData"
