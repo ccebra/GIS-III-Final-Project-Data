@@ -1,2 +1,6 @@
 # GIS-III-Final-Project-Data
-COVID-19 Data for the Upper Midwest in early 2021
+This Git folder should contain the three major files for this project. They are:
+
+* __GIS III Final Project.pdf__: This contains the background, purpose, procedure, results analysis, conclusion, and questions for further study for the experiment.
+* __projectapp.r__: This R code creates an interactive RShiny program that lets the user compare the change in COVID cases across the Midwest for different intervals of time, including since the repeal of the Iowa, Wisconsin, and Indiana mask mandates, and since the general CDC guideline that caused most of the remaining states to relax their rules.
+* __The other code__: The other files all correspond to the data package used for this project. In the data folder, there are four datasets. CountyCaseData.rda is the one that is primarily used in this project due to being cleaned and containing data for the entire Midwest, IllinoisZIP.rda and MinnesotaZIP.rda are ZIP code data that was not used due to difficulties adding layers in RShiny, as well as the fact that general ZIP code data for all states was impossible to find. CountyData.rda is the result of me accidentially copying death instead of case data, it is still useful but there is way more variance in death data so it was not used for analysis.
